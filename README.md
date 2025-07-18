@@ -5,7 +5,7 @@
 <tr><td>Программное обеспечение:<td>Corel Draw версии 17 или выше, браузер, <a href=https://docs.2gis.com/ru/mapgl/overview/browser-support>совместимый с 2GIS</a>
 <tr><td>Процессор:<td>с поддержкой SSE4.1</table>
 <h1>Установка</h1><ol>
-<li>Распаковать архив для соответствующей архитектуры (<a href=>x86</a> или <a href=>x64</a>) в каталог "programs\addons" или "programs64\addons" соответственно.
+<li>Распаковать архив для соответствующей архитектуры (<a href=https://github.com/fersatgit/2GIS4CDR/releases/download/v1.0/2GIS4CDR_x86.7z>x86</a> или <a href=https://github.com/fersatgit/2GIS4CDR/releases/download/v1.0/2GIS4CDR_x64.7z>x64</a>) в каталог "programs\addons" или "programs64\addons" соответственно.
 <li>Если после запуска CorelDraw не появился пункт меню "Файл->Импорт тайлов 2GIS", тогда в контекстном меню подменю "Файл" нужно выбрать пункт меню "Настройка->Меню Файл->Настройка по умолчанию"</ol>
 <p><img src=Readme\0.png>
 <h1>Порядок работы</h1><ol>
