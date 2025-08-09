@@ -96,7 +96,8 @@ var Encoder=new TextEncoder(),xmlHttp = new XMLHttpRequest(),page,coords,names,o
                 MoreTiles = true;
                 map.setCenter([(Tile.x + 65536)*Global2Lng,Math.atan(Math.sinh((Tile.y + 65536) / EARTH_RADIUS))*Rad2Grad],{animate: false});
                 map.setZoom(20,{animate: false});
-                await map._defaultSource._impl.zenithSource.fetchTile([Math.floor((Tile.x+0x80000000)/131072),Math.floor((Tile.y+0x80000000)/131072),15,16],map._impl.state)
+               // map._defaultSource._impl.zenithSource.fetchTile([Math.floor((Tile.x+0x80000000)/131072),Math.floor((Tile.y+0x80000000)/131072),15,16],map._impl.state);
+                await new Promise(r => setTimeout(r, 1000));
                 const Objects = map._impl.modules.tileManager.objects,
                       OfsX=Tile.x-MinX-65536,
                       OfsY=Tile.y-MinY-65536;
